@@ -49,7 +49,7 @@ function Liste(props) {
 
 function App() {
   const [aramaMetni,setAramaMetni] = React.
-  useState(localStorage.getItem("aranan")||"React");
+  useState(localStorage.getItem("aranan")||"");
   const yaziListesi = [
     {
       baslik: "React Öğretiyorum",
